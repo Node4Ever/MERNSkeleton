@@ -1,0 +1,35 @@
+{
+  "name": "moodjournal",
+  "version": "1.0.0",
+  "description": "Plot your good days and your bad days. Share with no one or anyone. Securely.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Node4Ever/MoodJournal.git"
+  },
+  "author": "Andrea Duran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Node4Ever/MoodJournal/issues"
+  },
+  "homepage": "https://github.com/Node4Ever/MoodJournal#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.7.0",
+    "mysql2": "^2.2.5",
+    "passport-jwt": "^4.0.0",
+    "remove": "^0.1.5",
+    "sequelize": "^6.3.5",
+    "validator": "^13.1.17",
+    "validatorjs": "^3.21.0"
+  }
+}
